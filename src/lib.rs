@@ -16,8 +16,8 @@ extern crate audiopus_sys as ffi;
 
 use std::convert::TryFrom;
 use std::ffi::CStr;
-use std::os::raw::c_int;
 use std::marker::PhantomData;
+use std::os::raw::c_int;
 
 // ============================================================================
 // Constants
